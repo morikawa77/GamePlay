@@ -3,8 +3,8 @@ import { theme } from '../../global/styles/theme';
 
 export const styles = StyleSheet.create({
   container: {
-    flexDirection: 'row',
-    alignItems: 'center',
+    flexDirection: 'row', 
+    alignItems: 'center'
   },
   user: {
     flexDirection: 'row',
@@ -18,10 +18,10 @@ export const styles = StyleSheet.create({
   username: {
     fontFamily: theme.fonts.title700,
     fontSize: 24,
-    color: theme.colors.heading,
+    color: theme.colors.heading
   },
   message: {
     fontFamily: theme.fonts.text400,
-    color: theme.colors.highlight,
+    color: theme.colors.highlight
   }
 });
